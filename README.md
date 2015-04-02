@@ -13,7 +13,7 @@ go run sha1hash.go "I can haz"
 ```
 Output (Success):
 ```
-{"result":"b64e21f3cf94ce384d579b3d128175c2"}
+{"result":"407af4a72410858f9205439b993e6d73b82b163f"}
 ```
 
 #### How to build docker image
