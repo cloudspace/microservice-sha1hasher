@@ -1,4 +1,4 @@
-package main // import "github.com/cloudspace/microservice-md5hasher"
+package main // import "github.com/cloudspace/microservice-sha1hasher"
 
 import  (
 	"fmt"
