@@ -31,6 +31,6 @@ docker build -t <username>/microservice-sha1hasher:0.1 ./
 ```
 In order for `docker run --rm -v $(pwd):/src centurylink/golang-builder` to work you need to have the github url on the top line of main.go. It should look like this:
 ```
-package main // import "github.com/cloudspace/microservice-md5hasher"
+package main // import "github.com/cloudspace/microservice-sha1hasher"
 ```
 You also must push your code to github before building the docker image.
